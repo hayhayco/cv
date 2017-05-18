@@ -1,0 +1,33 @@
+
+body
+{
+  height: 100%;
+}
+.pad0
+{
+  margin-bottom: 0px;
+}
+.padmenu
+{
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.borders
+{
+  border-radius: 10px;
+}
+.ketengahin {
+  position: relative;
+  height: 100%;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+
+  @media (max-width: 768px) {
+    nav {
+      /*min-height: 150px !important;*/
+    }
+}
